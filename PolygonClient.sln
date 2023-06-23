@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonClient", "PolygonClient.csproj", "{E90254F9-1FD3-40BB-92AD-72F621D8A4C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPolygonClient2", "..\TestPolygonClient2\TestPolygonClient2.csproj", "{84C81410-3F70-4B9A-9463-FB160E6C37E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E90254F9-1FD3-40BB-92AD-72F621D8A4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90254F9-1FD3-40BB-92AD-72F621D8A4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90254F9-1FD3-40BB-92AD-72F621D8A4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90254F9-1FD3-40BB-92AD-72F621D8A4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C81410-3F70-4B9A-9463-FB160E6C37E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C81410-3F70-4B9A-9463-FB160E6C37E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C81410-3F70-4B9A-9463-FB160E6C37E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C81410-3F70-4B9A-9463-FB160E6C37E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A77E5DC4-C15D-48C5-9DF6-583F096E84CA}
+	EndGlobalSection
+EndGlobal
