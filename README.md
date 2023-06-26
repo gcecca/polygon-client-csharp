@@ -56,7 +56,6 @@ Here are some basic methods that you can use:
 /// <param name="from">start date</param>
 /// <param name="to">end date</param>
 /// <param name="QueryStringParameters">additional parameters</param>
-/// <returns></returns>
 public Task<Aggregates?> AggregatesBars(string ticker, int multiplier,
                                         PolygonTimeSpan timeSpan, DateTime from,
                                         DateTime to, string? QueryStringParameters=null);
@@ -73,7 +72,6 @@ public Task<Aggregates?> AggregatesBars(string ticker, int multiplier,
 /// <param name="from">start date</param>
 /// <param name="to">end date</param>
 /// <param name="QueryStringParameters">additional parameters</param>
-/// <returns></returns>
 public Task<List<AggregatesItem>?> AggregatesBarsResults(string ticker, int multiplier,
                                                          PolygonTimeSpan timeSpan, DateTime from, 
                                                          DateTime to, string? QueryStringParameters=null);
@@ -82,7 +80,6 @@ public Task<List<AggregatesItem>?> AggregatesBarsResults(string ticker, int mult
 /// </summary>
 /// <param name="date"></param>
 /// <param name="QueryStringParameters"></param>
-/// <returns></returns>
 public Task<Aggregates?> GroupedDaily(DateTime date, string? QueryStringParameters=null);
 
 public Task<DailyOpenClose?> GetDailyOpenClose(string ticker, DateTime date);
